@@ -3767,7 +3767,42 @@ body.dark {
 .dark .language-picker__label svg {
   fill: var(--bs-FFFFFF);
 }
+.dark .span-color {
+  color: #afff00;
+}
+.dark .btn-primary {
+  background: #afff00;
+  border-color: #afff00;
+  color: var(--bs-000000);
+}
+.dark .select-style {
+  background: transparent;
+  border-color: #ccc;
+}
+.dark .btn-outline-primary {
+  border-color: #afff00;
+  color: #afff00;
+}
+.dark .btn-outline-primary:hover {
+  background: #afff00;
+  color: #fff;
+}
+.dark .featured-card {
+  background: #afff00;
+}
+.dark .featured-card .subvalue {
+  opacity: 0.8;
+}
+.dark .security-item-icon svg{
+  fill: #afff00;
+}
 
+.dark .select-style option {
+  color: #000;
+}
+.dark .text-success {
+  color: #afff00 !important;
+}
 .dark .trade-margin-inner-left .select-styled:after {
   background: url('../images/dark-chevron-down.svg');
 }
