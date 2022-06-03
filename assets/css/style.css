@@ -3775,8 +3775,6 @@ body.dark {
 .dark .language-picker__label svg {
   fill: var(--bs-FFFFFF);
 }
-<<<<<<< Updated upstream
-=======
 .dark .span-color {
   color: #afff00;
 }
@@ -3815,8 +3813,13 @@ body.dark {
 .dark .security-item-icon svg {
   fill: #afff00;
 }
->>>>>>> Stashed changes
 
+.dark .select-style option {
+  color: #000;
+}
+.dark .text-success {
+  color: #afff00 !important;
+}
 .dark .trade-margin-inner-left .select-styled:after {
   background: url('../images/dark-chevron-down.svg');
 }
