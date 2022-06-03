@@ -3709,21 +3709,29 @@ body.dark {
   color: #fff;
 }
 .dark .home-dashboard-area {
-  background: rgba(30, 30, 52, 1);
+  background: transparent
+    linear-gradient(
+      111deg,
+      #e6db3717 0%,
+      #b4d66a27 44%,
+      #93d28c2b 60%,
+      #6aceb630 100%
+    )
+    0% 0% no-repeat padding-box;
   border-color: #404041;
 }
 .dark .left-sidebar,
 .dark .right-sidebar,
 .dark .card-wrap,
 .dark .activity-card {
-  background: #282837;
+  background: #1e1e34;
   box-shadow: none;
 }
 .dark .highcharts-background {
-  fill: #282837 !important ;
+  fill: #1e1e34 !important ;
 }
 .dark .buy-sale-wrap {
-  background: #2d2d39;
+  background: #1e1e34;
 }
 .dark .color-343434F9 {
   color: var(--bs-888888) !important;
@@ -3767,6 +3775,47 @@ body.dark {
 .dark .language-picker__label svg {
   fill: var(--bs-FFFFFF);
 }
+<<<<<<< Updated upstream
+=======
+.dark .span-color {
+  color: #afff00;
+}
+.dark .btn-primary {
+  background: #afff00;
+  border-color: #afff00;
+  color: var(--bs-000000);
+}
+.dark .select-style {
+  background: transparent;
+  border-color: #ccc;
+}
+.dark .btn-outline-primary {
+  border-color: #afff00;
+  color: #afff00;
+}
+.dark .btn-outline-primary:hover {
+  background: #afff00;
+  color: #fff;
+}
+.dark .featured-card {
+  background: #afff00;
+}
+.dark .featured-card .subvalue {
+  opacity: 0.8;
+}
+.dark .featured-card .label,
+.dark .featured-card .title,
+.dark .featured-card .subvalue,
+.dark .featured-card .title .percent-value {
+  color: #000;
+}
+.dark .featured-card .symbol {
+  color: #ccc;
+}
+.dark .security-item-icon svg {
+  fill: #afff00;
+}
+>>>>>>> Stashed changes
 
 .dark .trade-margin-inner-left .select-styled:after {
   background: url('../images/dark-chevron-down.svg');
